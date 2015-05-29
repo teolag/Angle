@@ -57,7 +57,7 @@ class Angle {
 		return new Angle(this.r + percent*(this.diff(other).r));
 	}
 
-	diffInterpolate(other, percent) {
+	interpolateDirection(other, percent) {
 		return new Angle(this.r + percent*(this.dirDiff(other).r));
 	}
 

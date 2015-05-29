@@ -1,5 +1,6 @@
 html {
 	background-color: #f3f3f3;
+	font-size: 16px;
 }
 
 body {
@@ -8,6 +9,7 @@ body {
 
 body, select, textarea, input {
 	font-family: "Roboto", serif;
+	font-size: 1rem;
 }
 
 h1+p.subtitle {
@@ -28,13 +30,14 @@ h2 {
 	flex-wrap: wrap;
 }
 #container>div {
-	padding: 2em;
+	padding: 2rem;
 	background-color: white;
 	flex: 1;
-	margin: 0.5em;
+	margin: 0.5rem;
 	text-align: left;
 	min-width: 10rem;
 	max-width: 20rem;
+	box-shadow: 1px 1px 3px rgba(0,0,0,0.1);
 }
 
 .angle label {
